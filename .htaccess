@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^master$ index.php/?view=master
+RewriteRule ^profile$ index.php/?view=profile
+RewriteRule ^exit$ index.php/?exit

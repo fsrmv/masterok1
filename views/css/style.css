@@ -1,0 +1,114 @@
+#cen {
+	min-height: 500px;
+}
+
+#orders, #my_orders {
+	background-color: #faf9f0;
+	color: black;
+	padding: 20px 0 20px 0;
+}
+
+#footer {
+	background-color: #18100d;
+	padding: 20px 0 20px 0;
+	color: white;
+}
+
+.m_image {
+	background: url(../img/main.jpg) center center no-repeat;
+}
+
+.p_image {
+	background: url(../img/profil.jpg) center center no-repeat;
+}
+
+h1, h3 {
+	color: white;
+}
+
+#orders .img {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	transition: .5s;
+}
+
+.img1{
+	width: 100%;
+    height: 200px;
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    left: 0px;
+    transition: .5s;
+}
+
+.img2{
+	width: 100%;
+    height: 200px;
+    background-size: 100%;
+    background-position: center;
+    position: absolute;
+    left: 305;
+    transition: .5s;
+}
+
+#orders .img:hover .img1 {
+	left: -305px;
+}
+
+#orders .img:hover .img2 {
+	left: 0px;
+}
+
+#orders .img .cardText {
+	position: absolute;
+	padding: 6px 8px;
+	border-radius: 2px 0 2px 0;
+	background: grey;
+	color: white;
+	z-index: 99;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 40px 0 40px 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+#ordersForm {
+	display: none;
+}
+
+#my_orders .img .timestamp {
+	left: 0; 
+	top: 0;
+	position: absolute;
+	padding: 6px 8px;
+	border-radius: 2px 0 2px 0;
+	background: grey;
+	color: white;
+	z-index: 99;
+}
+
+.timestamp_master {
+	left: 0; 
+	top: 0;
+	position: absolute;
+	padding: 6px 8px;
+	border-radius: 2px 0 2px 0;
+	background: grey;
+	color: white;
+	z-index: 99;
+}
